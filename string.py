@@ -51,5 +51,6 @@ print(nome_completo.split())
 print(nome_completo.split("o"))
 
 # Usando método para adicionar objetos formatados a instruções de impressão - '.format'
+
 # resultado 'Paloma namora com Matheus à 2 anos.'
 print('Paloma {}'.format('namora com matheus à 2 anos.'))
