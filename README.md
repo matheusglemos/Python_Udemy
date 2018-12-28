@@ -2,6 +2,8 @@
 
 <b> Início do curso 27/12/2018 </b>
 
+<h3><i>Conteúdo do Curso.</i></h3>
+
 [X] Sobre o curso.  
 [X] Configuração Python.  
 [ ] Conceitos básicos de estrutura de dados e objetos em Python.  
