@@ -1,7 +1,5 @@
 # Projeto em python 3 referente a aula 25 do Curso python da plataforma Udemy.
 
-# Projeto em python 3 referente a aula 24 do Curso python da plataforma Udemy.
-
 # Operadores
 
 # and : 'e'
