@@ -8,7 +8,7 @@
 - [X] Configuração Python.  
 - [X] Conceitos básicos de estrutura de dados e objetos em Python.  
 - [X] Operadores de comparação em Python.  
-- [ ] Declarações em Python.  
+- [X] Declarações em Python.  
 - [ ] Métodos e Funções.  
 - [ ] Primeiro Projeto.  
 - [ ] Programação Orientada à Objetos - POO.  
