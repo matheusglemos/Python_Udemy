@@ -19,7 +19,7 @@
 - [ ] Decoradores em Python.  
 - [ ] Geradores.  
 - [ ] Projeto Final em Python.  
-- [ ] Módulos avançadis em Python.  
+- [ ] Módulos avançados em Python.  
 - [ ] Objetos e estruturas de dados avançadas em Python.  
 - [ ] BÔNUS - Introdução aos GUIs.  
 
