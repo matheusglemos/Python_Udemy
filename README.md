@@ -10,7 +10,7 @@
 - [X] Operadores de comparação em Python.  
 - [X] Declarações em Python.  
 - [X] Métodos e Funções.  
-- [ ] Primeiro Projeto.  
+- [X] Primeiro Projeto.  
 - [ ] Programação Orientada à Objetos - POO.  
 - [ ] Lidando com erros e excessões.  
 - [ ] Projeto 2.  
