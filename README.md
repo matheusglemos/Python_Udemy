@@ -9,7 +9,7 @@
 - [X] Conceitos básicos de estrutura de dados e objetos em Python.  
 - [X] Operadores de comparação em Python.  
 - [X] Declarações em Python.  
-- [ ] Métodos e Funções.  
+- [X] Métodos e Funções.  
 - [ ] Primeiro Projeto.  
 - [ ] Programação Orientada à Objetos - POO.  
 - [ ] Lidando com erros e excessões.  
