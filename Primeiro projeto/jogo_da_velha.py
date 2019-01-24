@@ -20,15 +20,15 @@ def definindo_marcadores():
    marcador = ''
 
    while not (marcador == 'X' or marcador == 'O'):
-      print()
-      marcador = input(jogador01 + " você deseja marcar com o X ou com O? ").upper()
+      print(" ")
+      marcador = str(raw_input(jogador01 + " voce deseja marcar com o X ou com O? ").upper())
       limpar()
       if marcador == 'X':
-        print(jogador01 + ' você marcará com X.')
-        print(jogador02 + ' você marcará com O.')
+        print(jogador01 + ' voce marcara com X.')
+        print(jogador02 + ' voce marcara com O.')
       else:
-        print(jogador01 + ' você marcará com O.')
-        print(jogador02 + ' você marcará com X.')
+        print(jogador01 + ' voce marcara com O.')
+        print(jogador02 + ' voce marcara com X.')
 
    if marcador == 'X':
       return ('X','O')
@@ -74,14 +74,14 @@ def posicao_jogada(jogada):
 
     posicao = " "
 
-    while posicao not in '1 2 3 4 5 6 7 8 9'.split() or not verifica_espaco(jogada,int(posicao)):
-        posicao = input("Escolha sua jogada (1-9): ")
+    while posicao not in [1,2,3,4,5,6,7,8,9] or not verifica_espaco(jogada,int(posicao)):
+        posicao = int(raw_input("Escolha sua jogada (1-9): "))
 
-    return int(posicao)
+    return posicao
 
 def jogar_novamente():
 
-    return input('Quer jogar novamente? "S" ou "N" ').lower().startswith('s')
+    return input('Quer jogar novamente? "S" ou "N"').lower().startswith('s')
 
 def limpar():
   if os.name == 'nt':
@@ -89,31 +89,31 @@ def limpar():
   else:
       os.system('clear')
 
-print()
+print(" ")
 print('Bem vindo ao jogo da velha!')
-print()
+print(" ")
 
-jogador01 = input('Jogador(a) 01, por favor digite seu nome: ')
-jogador02 = input('Jogador(a) 02, por favor digite seu nome: ')
+jogador01 = str(raw_input('Jogador(a) 01, por favor digite seu nome: '))
+jogador02 = str(raw_input('Jogador(a) 02, por favor digite seu nome: '))
 
 jogos = 0
 while True:
     jogada = [' '] * 10
     jogador_01_marcador,jogador_02_marcador = definindo_marcadores()
     turno =  quem_inicia()
-    print()
-    print ('O(A) jogador(a) ' + turno + ' começará jogando!')
+    print(" ")
+    print ('O(A) jogador(a) ' + turno + ' comecara jogando!')
 
     game_em_andamento  = True
 
     while game_em_andamento:
         #jogador 01
         if turno == jogador01:
-            print()
+            print(" ")
             print("Vez de " + jogador01)
-            print()
+            print(" ")
             tabuleiro(jogada)
-            print()
+            print(" ")
             posicao = posicao_jogada(jogada)
             marcar_no_tabuleiro(jogada,jogador_01_marcador,posicao)
             limpar()
@@ -121,13 +121,13 @@ while True:
         #verifica vitoria
         if ha_vencedor(jogada,jogador_01_marcador):
             tabuleiro(jogada)
-            print()
-            print('Parabéns ' + jogador01 + ', você venceu! \n')
+            print(" ")
+            print('Parabens ' + jogador01 + ', voce venceu! \n')
             break
         else:
             if verifica_se_tabuleiro_esta_completo(jogada):
               tabuleiro(jogada)
-              print()
+              print(" ")
               print("O jogo terminou empatado! \n")
               break
             else:
@@ -135,11 +135,11 @@ while True:
 
             #jogador 02
         if turno == jogador02:
-            print()
+            print(" ")
             print("Vez de " + jogador02)
-            print()
+            print(" ")
             tabuleiro(jogada)
-            print()
+            print(" ")
             posicao = posicao_jogada(jogada)
             marcar_no_tabuleiro(jogada,jogador_02_marcador,posicao)
             limpar()
@@ -147,13 +147,13 @@ while True:
         #verifica vitoria
         if ha_vencedor(jogada,jogador_02_marcador):
             tabuleiro(jogada)
-            print()
-            print('Parabéns ' + jogador02 + ', você venceu! \n')
+            print(" ")
+            print('Parabens ' + jogador02 + ', voce venceu! \n')
             break
         else:
             if verifica_se_tabuleiro_esta_completo(jogada):
                 tabuleiro(jogada)
-                print()
+                print(" ")
                 print("O jogo terminou empatado! \n")
                 break
             else:
