@@ -11,7 +11,7 @@
 - [X] Declarações em Python.  
 - [X] Métodos e Funções.  
 - [X] Primeiro Projeto.  
-- [ ] Programação Orientada à Objetos - POO.  
+- [X] Programação Orientada à Objetos - POO.  
 - [ ] Lidando com erros e excessões.  
 - [ ] Projeto 2.  
 - [ ] Módulos e Pacotes.  
