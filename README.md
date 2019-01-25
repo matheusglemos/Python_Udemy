@@ -10,7 +10,7 @@
 - [X] Métodos e Funções.  
 - [X] Primeiro Projeto.  
 - [X] Programação Orientada à Objetos - POO.  
-- [ ] Lidando com erros e excessões.  
+- [X] Lidando com erros e excessões.  
 - [ ] Projeto 2.  
 - [ ] Módulos e Pacotes.  
 - [ ] Funções embutidas em Python.  
